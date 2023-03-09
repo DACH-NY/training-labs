@@ -1,4 +1,4 @@
-# Functional Programming in Daml: Lab6
+# Lab6
 
 **Learning objective**: 
 - To use type-variables when defining functions. 

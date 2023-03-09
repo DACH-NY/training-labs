@@ -1,4 +1,4 @@
-# Functional Programming in Daml: Lab1
+# Lab1
 
 **Learning objective**: To write and test a function in Daml
 

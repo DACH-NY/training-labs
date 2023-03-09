@@ -1,4 +1,4 @@
-# Canton Ledger Programming in Daml: Lab2  
+# Lab2  
 
 **Learning objective**: To identify and retrieve contracts and analyze transaction trees
 

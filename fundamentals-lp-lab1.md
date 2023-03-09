@@ -1,4 +1,4 @@
-# Canton Ledger Programming in Daml: Lab1 
+# Lab1 
 
 **Learning objective**: To write and test Daml templates
 

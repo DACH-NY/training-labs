@@ -1,4 +1,4 @@
-# Functional Programming in Daml: Lab2
+# Lab2
 
 **Learning objective**: To use primitive and collection data types and functions associated with them to process data
 
