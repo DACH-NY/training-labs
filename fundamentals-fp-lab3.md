@@ -1,3 +1,5 @@
+# Functional Programming in Daml: Lab3
+
 **Learning objective**: To create and use custom data types and type-classes
 
 **Prerequisite**
