@@ -39,10 +39,10 @@ The following test scripts test out the scenarios.
 Alice submits a CLP application and the Airline accepts the application and creates a CLP account for her. 
 
 ```
-module TestLab7 where 
+module TestLab1 where 
 
 import Daml.Script
-import Lab7
+import Lab1
 import DA.Date (toDateUTC, date, Month(Jan), Month(Mar))
 import DA.Time (time)
 
