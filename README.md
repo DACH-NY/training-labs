@@ -1,4 +1,4 @@
-## Welcome to Daml Fundamentals Training Lab Series!
+# Welcome to Daml Fundamentals Training Lab Series!
 
 This series is designed to help you practice the concepts you learn in the **Daml Fundamentals Training**. 
 
@@ -21,3 +21,13 @@ Course: **Functional Programming In Daml**
 | 11. Type variables                                                        | [Lab6](https://github.com/DACH-NY/training-labs/blob/main/fundamentals-fp-lab6.md) |
 
 
+Course: **Canton Ledger Programming in Daml**
+
+
+
+| Lessons                                                                   | Lab  |
+|---------------------------------------------------------------------------|------|
+| 03. Writing a Template<br>04. Testing a Template |[Lab1](https://github.com/DACH-NY/training-labs/blob/main/fundamentals-lp-lab1.md) |
+| 05. Identifying contracts<br>06. Transaction trees<br>07. Retrieving contracts                | [Lab2](https://github.com/DACH-NY/training-labs/blob/main/fundamentals-lp-lab2.md) |
+| 08. Functor, applicative, and action                                               | Lab9 |
+| 09. Actions and loops                                              | Lab10 |
