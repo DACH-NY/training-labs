@@ -42,7 +42,6 @@
 
 
 ## Problem statement 2
-*This problem is adapted from [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/starting-out#babys-first-functions)*
 
 *This problem has three parts*
 
