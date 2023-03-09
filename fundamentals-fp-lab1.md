@@ -12,7 +12,7 @@
 
 1. Write a function named **quadFunction** that takes three integers for x, y, and z. It returns the value of
 
-    3x<sup>2</sup> + 2y + z
+   ![quadEquation](fundamentals-fp-lab1-equation.png)
 
 
 2. Write a test-script that 
