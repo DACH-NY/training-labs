@@ -29,5 +29,5 @@ Course: **Canton Ledger Programming in Daml**
 |---------------------------------------------------------------------------|------|
 | 03. Writing a Template<br>04. Testing a Template |[Lab1](https://github.com/DACH-NY/training-labs/blob/main/fundamentals-lp-lab1.md) |
 | 05. Identifying contracts<br>06. Transaction trees<br>07. Retrieving contracts                | [Lab2](https://github.com/DACH-NY/training-labs/blob/main/fundamentals-lp-lab2.md) |
-| 08. Functor, applicative, and action                                               | Lab3 |
-| 09. Actions and loops                                              | Lab4 |
+| 08. Functor, applicative, and action <br> 09. Actions and loops                                              | [Lab3](https://github.com/DACH-NY/training-labs/blob/main/fundamentals-lp-lab3.md) |
+
