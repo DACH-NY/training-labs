@@ -4,10 +4,7 @@ This series is designed to help you practice the concepts you learn in the **Dam
 
 As you complete the video-lessons, you can pick up the lab that aligns with the lessons you have completed. 
 
-
-As you complete the video-lessons, you can pick up the lab that aligns with the lessons you have completed. 
-
-The following table gives a mapping from a video-lesson to the lab that focuses on the learning objectives of that lesson.
+The following tables map one or more video-lessons to the lab that focuses on the learning objectives of those lessons.
 
 Course: **Functional Programming In Daml**
 
@@ -28,6 +25,6 @@ Course: **Canton Ledger Programming in Daml**
 | Lessons                                                                   | Lab  |
 |---------------------------------------------------------------------------|------|
 | 03. Writing a Template<br>04. Testing a Template |[Lab1](https://github.com/DACH-NY/training-labs/blob/main/fundamentals-lp-lab1.md) |
-| 05. Identifying contracts<br>06. Transaction trees<br>07. Retrieving contracts                | [Lab2](https://github.com/DACH-NY/training-labs/blob/main/fundamentals-lp-lab2.md) |
-| 08. Functor, applicative, and action <br> 09. Actions and loops                                              | [Lab3](https://github.com/DACH-NY/training-labs/blob/main/fundamentals-lp-lab3.md) |
+| 05. Identifying contracts<br>06. Transaction trees<br>07. Retrieving contracts | [Lab2](https://github.com/DACH-NY/training-labs/blob/main/fundamentals-lp-lab2.md) |
+| 08. Functor, applicative, and action <br> 09. Actions and loops | [Lab3](https://github.com/DACH-NY/training-labs/blob/main/fundamentals-lp-lab3.md) |
 
