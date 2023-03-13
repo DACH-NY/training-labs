@@ -30,6 +30,6 @@ Course: **Testing in Daml**
 
 | Lessons                                                                   | Lab  |
 |---------------------------------------------------------------------------|------|
-| 01. Daml Testing <br> 02. Navigator | Lab1|
+| 01. Daml Testing <br> 02. Navigator | [Lab1](https://github.com/DACH-NY/training-labs/blob/main/fundamentals-testing-lab1.md)|
 | 03. Designing Daml Test Scripts | Lab2 |
 | 04. Testing Functions | Lab3 |

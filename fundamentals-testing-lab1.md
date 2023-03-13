@@ -50,7 +50,7 @@ daml start
 9. Go to list of contracts. You should now see a CLPAccount with all the data from CLPApplication and points field having 0.
 10. Finally, exercise the choice 'AddPoints' and add some points to the account. Submit.
 11. Go back to Contracts list and open the account again. It should reflect the new points added in the previous step. 
-12. Once you have explore the outcomes of the steps above, go back to VSCode terminal and terminate the session by Ctrl-C.   
+12. Once you have explored the outcomes of the steps above, go back to VSCode terminal and terminate the session by Ctrl-C.   
 
 ## Problem statement 2
 
