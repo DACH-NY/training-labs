@@ -2,9 +2,7 @@
 
 This series is designed to help you practice the concepts you learn in the **Daml Fundamentals Training**. 
 
-As you complete the video-lessons, you can pick up the lab that aligns with the lessons you have completed. 
-
-The following tables map one or more video-lessons to the lab that focuses on the learning objectives of those lessons.
+The following tables map one or more video-lessons to a lab that focuses on the learning objectives of those lessons. As you complete the video-lessons listed on the left column, try out the lab listed next to them.
 
 Course: **Functional Programming In Daml**
 
@@ -28,3 +26,10 @@ Course: **Canton Ledger Programming in Daml**
 | 05. Identifying contracts<br>06. Transaction trees<br>07. Retrieving contracts | [Lab2](https://github.com/DACH-NY/training-labs/blob/main/fundamentals-lp-lab2.md) |
 | 08. Functor, applicative, and action <br> 09. Actions and loops | [Lab3](https://github.com/DACH-NY/training-labs/blob/main/fundamentals-lp-lab3.md) |
 
+Course: **Testing in Daml**
+
+| Lessons                                                                   | Lab  |
+|---------------------------------------------------------------------------|------|
+| 01. Daml Testing <br> 02. Navigator | Lab1|
+| 03. Designing Daml Test Scripts | Lab2 |
+| 04. Testing Functions | Lab3 |
