@@ -180,8 +180,6 @@ In this lab, we will continue to use the templates for building a Customer Loyal
     #4:0
     │   disclosed to (since): 'Alice' (4), 'Epic' (4)
     └─> 'Epic' exercises ReviewApplication on #3:1 (Lab2:CLPApplication)
-                with
-                customerId = "123"
         children:
         #4:1
         │   disclosed to (since): 'Alice' (4), 'Epic' (4)
@@ -207,7 +205,7 @@ In this lab, we will continue to use the templates for building a Customer Loyal
                 dob = 2000-01-10T;
                 points = 0
     
-    TX 5 1970-01-01T00:00:00Z (TestLab2:93:39)
+    TX 5 1970-01-01T00:00:00Z (TestLab2:92:39)
     #5:0
     │   disclosed to (since): 'Alice' (5), 'Epic' (5)
     └─> 'Epic' exercises AddPoints on #4:2 (Lab2:CLPAccount)

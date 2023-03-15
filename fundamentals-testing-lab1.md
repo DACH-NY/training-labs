@@ -20,7 +20,7 @@ The template diagram will look like as shown below:
 
 Once you have the above templates ready, follow the steps to guide you through the scenario:
 
-1. Write a **setup** function Main.daml that does the following:
+1. Write a **setup** function in Main.daml that does the following:
 
 - Create two parties named **airline** and **customer**
 - Create two user-ids with display-names as "Epic" and "Alice"
@@ -41,12 +41,12 @@ daml start
 
 3. Once you have the Navigator web-page up, choose 'Alice' as the user to login. 
 4. View the Contracts list, which should show one contract which is the **AirlineService** created through the init-script. 
-5. Choose **'CreateBlanCLPApplication'** choice to exercise. This should show an option to Submit. Submit.
+5. Choose **'CreateBlankCLPApplication'** choice to exercise. This should show an option to Submit. Submit.
 6. Go to Contracts and you will see a new contract for CLPApplication. Open that contract, and now choose **SubmitApplication** choice.
 5. This should open up a CLP Application with blank fields. Fill in some sample data, with customerID as '123' (or any other text that you can remember) and Submit.
 6. Logout and now log in as Epic. 
 7. Go to list of Contracts. You should see the CLPApplication with Alice's data filled in. 
-8. Choose ReviewApplication choice to exercise. Enter '123' in customerId (or the string that you entered in CLPApplication as customerId). Submit.
+8. Choose ReviewApplication choice to exercise. 
 9. Go to list of contracts. You should now see a CLPAccount with all the data from CLPApplication and points field having 0.
 10. Finally, exercise the choice 'AddPoints' and add some points to the account. Submit.
 11. Go back to Contracts list and open the account again. It should reflect the new points added in the previous step. 

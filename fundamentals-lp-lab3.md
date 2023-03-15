@@ -121,28 +121,27 @@ Continuing from the previous Lab, there are two templates - CLPAApplication and 
 
 
 2. In this part, continue to extend the previous script that performs the following
-- The airline submits a transaction that exercises ReviewApplication choices on all the applications and returns a list of CLPAccounts created. This list is stored in **allAccountCids**.
-- With the accounts created in the previous step, the airline now exercises the AddPoints choice and adds 1000 points to each account. 
+    - The airline submits a transaction that exercises ReviewApplication choices on all the applications and returns a list of CLPAccounts created. This list is stored in **allAccountCids**.
+    - With the accounts created in the previous step, the airline now exercises the AddPoints choice and adds 1000 points to each account. 
 
-Once the above script is completed, it should have two accounts as shown below:
+    Once the above script is executed, it should have two accounts as shown below:
 
-![ScriptOutput2](fundamentals-lp-lab3-ScriptOutput2.png)
+    ![ScriptOutput2](fundamentals-lp-lab3-ScriptOutput2.png)
 
 
-Add the following statements at the end of your script:
+    Add the following statements at the end of your script:
 
-```
-   allAccountTuples <- query @CLPAccount airline
+    ```
+    allAccountTuples <- query @CLPAccount airline
 
-    debug allAccountCids 
-    debug allAccountTuples 
-```
+        debug allAccountCids 
+        debug allAccountTuples 
+    ```
 
-The Transaction Tree view of the script output should show the following output: 
+    The Transaction Tree view of the script output should show the following output: 
 
-```
-[Some 0050eb35ab8c025a0c59a15d5684355cc2d0a2cd4cad8004435a6818ef12192731,Some 005f605dc5ed79d9a98489ce31421d64d365ca550827954cb160c94154d2ef09c1]
-  [(00691fb3d8526dc650dee23e15351e16272d18f59e3958a25a3629a784a85b85fc,CLPAccount {customer = 'Alice', airline = 'Epic Airlines', id = "123", name = "Alice", address = "123 Main St ABCD", email = "alice@wonderland.io", phone = Some "+01-555-555-1234", timestamp = 2023-03-01T10:30:00Z, dob = 2000-01-05, points = 1000}),(00b325433392e50fe1f60b06b90671e067df8f08f1332cb0b0c82d950b9ef80d19,CLPAccount {customer = 'Bob', airline = 'Epic Airlines', id = "234", name = "Bob", address = "123 Spring St EFGH", email = "bob@nomansland.io", phone = Some "+01-555-555-5678", timestamp = 2023-03-01T10:30:00Z, dob = 2010-01-05, points = 1000})]
-  
-```
+    ```
+    [Some 0050eb35ab8c025a0c59a15d5684355cc2d0a2cd4cad8004435a6818ef12192731,Some 005f605dc5ed79d9a98489ce31421d64d365ca550827954cb160c94154d2ef09c1]
+    [(00691fb3d8526dc650dee23e15351e16272d18f59e3958a25a3629a784a85b85fc,CLPAccount {customer = 'Alice', airline = 'Epic Airlines', id = "123", name = "Alice", address = "123 Main St ABCD", email = "alice@wonderland.io", phone = Some "+01-555-555-1234", timestamp = 2023-03-01T10:30:00Z, dob = 2000-01-05, points = 1000}),(00b325433392e50fe1f60b06b90671e067df8f08f1332cb0b0c82d950b9ef80d19,CLPAccount {customer = 'Bob', airline = 'Epic Airlines', id = "234", name = "Bob", address = "123 Spring St EFGH", email = "bob@nomansland.io", phone = Some "+01-555-555-5678", timestamp = 2023-03-01T10:30:00Z, dob = 2010-01-05, points = 1000})]
+    ```
 
